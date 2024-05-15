@@ -30,7 +30,7 @@ xhome.setAttribute("href", "index.html");
 
 var image = document.createElement("img");
 image.setAttribute("class", "work_Img")
-image.src = "/images/starWars.jpg";
+image.src = "starWars.jpg";
 
     document.getElementById("article").appendChild(image);
 

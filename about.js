@@ -30,7 +30,7 @@ xhome.setAttribute("href", "index.html");
 
 var image = document.createElement("img");
 image.setAttribute("class", "about_Img")
-image.src = "/images/frontPhoto2.png";
+image.src = "frontPhoto2.png";
 
     document.getElementById("article").appendChild(image);
 

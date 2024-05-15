@@ -29,7 +29,7 @@ xhome.setAttribute("href", "index.html");
 
 var image = document.createElement("img");
 image.setAttribute("class", "intro_Img")
-image.src = "/images/LinkedinPhoto.png";
+image.src = "LinkedinPhoto.png";
 
     document.getElementById("article").appendChild(image);
 

@@ -31,7 +31,7 @@ xhome.setAttribute("href", "index.html");
 
 var image = document.createElement("img");
 image.setAttribute("class", "contact_Img")
-image.src = "/images/onlygodknows.jpeg";
+image.src = "onlygodknows.jpeg";
 
     document.getElementById("article").appendChild(image);
 
