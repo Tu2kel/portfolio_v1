@@ -20,7 +20,7 @@ var audioBtn = document.querySelector("img")
 
 audioBtn.addEventListener("click", () => {
     console.log("audio clicked");
-    const audio = new Audio("/media/Reigns.mp3");
+    const audio = new Audio("Reigns.mp3");
     audio.volume = .1;
     audio.play()
 

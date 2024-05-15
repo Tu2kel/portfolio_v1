@@ -60,7 +60,7 @@ footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved."
 
 audioBtn.addEventListener("click", () => {
     console.log("audio clicked");
-    const audio = new Audio("/media/Reigns.mp3");
+    const audio = new Audio("Reigns.mp3");
     audio.volume = .1;
     audio.play()
 
