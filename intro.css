@@ -1,0 +1,148 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: azure;
+    
+}
+
+#container{
+    /* border: 2px solid red; */
+    background: linear-gradient(to right, rgba(61, 17, 17, 0.5), rgba(1, 21, 61, 0.5));;
+    height: 100%;
+}
+
+.intro_Img{
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+
+#icon{
+    background: linear-gradient(to left, rgba(61, 17, 17, 0.5), rgba(1, 21, 61, 0.5));
+
+}
+
+#icon img{
+    max-width: 10vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+
+ 
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: cursive;
+    font-size: 1.5em;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* ENTER INTRO STYLES BETWEEN THIS-----------------------------*/
+
+#middle {
+    font-family: "jersey 25" ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+#article{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    /* width: 640px; */
+    width: 50rem;
+    box-sizing: border-box;
+    font-stretch: 100%;
+    text-size-adjust: 100%;
+    opacity: 1;
+    padding: 72px 40px 24px 40px;
+    color: antiquewhite;
+    background-color: rgba(27, 31, 34, 0.85);
+    border-bottom-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+
+
+
+}
+
+#article h2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8em;
+    margin-top: 0;
+    
+
+    
+}
+
+
+
+
+.xhome{
+    color: antiquewhite;
+    text-decoration-line: none;
+    
+}
+
+.xhome:hover{
+    color: rgba(130, 6, 6, 0.623);
+    text-decoration-line: none;
+    transform: scale(1.5) ; 
+    transition: transform 1s ;
+}
+
+
+
+
+
+.introPara{
+    line-height: 2;
+    font-size: 1.25em;
+    font-family: "jersey 25" ;
+    
+    
+}
+
+
+
+/* ENTER INTRO STYLES BETWEEN THIS----------------------------------*/
+
+
+
+ footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkred;
+    font-size: 1.2em;
+    margin-top: 10vh;
+    font-family: "jersey 25";
+
+}
