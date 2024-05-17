@@ -13,3 +13,42 @@ footer{
 #middle{
     color: red;
 }
+
+.linkedInIcon{
+    width: 2.5vw;
+    filter: grayscale(100%)
+}
+.linkedInIcon:hover{
+    width: 2.5vw;
+    filter: none;
+}
+
+.githubIcon{
+    width: 2.5vw;
+    filter: grayscale(100%);
+
+}
+.githubIcon:hover{
+    width: 2.5vw;
+    filter: none;
+
+
+}
+
+.emailIcon{
+    width: 2.5vw;
+    filter: grayscale(100%);
+
+}
+.emailIcon:hover{
+    width: 2.5vw;
+    filter: none;
+
+
+}
+
+#socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+
+}

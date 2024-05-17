@@ -97,6 +97,7 @@ a:hover{
     justify-content: space-between;
     font-size: 1.8em;
     margin-top: 0;
+
     
 
     
@@ -119,16 +120,24 @@ a:hover{
 }
 
 
-
+/* p .introPara{
+    align-content: center;
+} */
 
 
 .introPara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     line-height: 2;
     font-size: 1.25em;
-    font-family: "jersey 25" ;
+    font-family: "jersey 25";
+    
     
     
 }
+
+
 
 
 
