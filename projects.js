@@ -1,4 +1,16 @@
+// var audioBtn = document.querySelector("#proj_Img")
+var audioBtn = document.querySelector("img")
 
+
+
+audioBtn.addEventListener("click", () => {
+    console.log("audio clicked");
+    const audio = new Audio("Zepp.mp3");
+    audio.volume = .1;
+    audio.play()
+
+    
+}) 
 
 var article = document.createElement("article");
 article.setAttribute("id", "article");
@@ -10,7 +22,7 @@ article.setAttribute("class", "active");
 /*-------------------Changes with Page----------------------------------- */
 
 var h2Work = document.createElement("h2");
-h2Work.textContent = "WORK";
+h2Work.textContent = "PROJECTS";
 h2Work.setAttribute("class", "h2Work");
 
     document.getElementById("article").prepend(h2Work);
