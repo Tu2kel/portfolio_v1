@@ -32,8 +32,13 @@ var image = document.createElement("img");
 image.setAttribute("class", "about_Img")
 image.src = "frontPhoto2.png";
 
+
+
     document.getElementById("article").appendChild(image);
 
+
+
+    
 
     /*---------------------------------------------------------- */
 
@@ -55,6 +60,10 @@ introPara.setAttribute("class", "introPara")
 
 
     document.getElementById("article").appendChild(introPara)
+
+
+
+
 
 /* could just make footer which would fall to end of container */
 

@@ -9,8 +9,11 @@ html, body{
 
 #container{
     /* border: 2px solid red; */
-    background: linear-gradient(to right, rgba(61, 17, 17, 0.5), rgba(1, 21, 61, 0.5));;
+    background: linear-gradient(to right, rgba(61, 17, 17, 0.5), rgba(1, 21, 61, 0.5));
     height: 100%;
+
+
+    
 }
 
 .intro_Img{
@@ -39,6 +42,7 @@ nav ul{
     justify-content: space-evenly;
     font-family: cursive;
     font-size: 1.5em;
+
     
     
 }
@@ -51,11 +55,13 @@ ul{
 li a{
     color: antiquewhite;
     text-decoration: none;
+    
 
 }
 
 a:hover{
     text-decoration: underline;
+    
 }
 
 /* ENTER INTRO STYLES BETWEEN THIS-----------------------------*/
@@ -65,6 +71,8 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 
 
 }
@@ -88,6 +96,12 @@ a:hover{
     border-image-repeat: stretch;
     border-image-slice: 100%;
 
+    filter: drop-shadow(28px 28px 10px rgb(47, 46, 46));
+
+    
+
+    
+    
 
 
 }

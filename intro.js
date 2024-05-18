@@ -1,4 +1,34 @@
 
+var audioBtn = document.getElementById("container")
+let audioPlayed = false
+let audio = new Audio("Reigns.mp3");
+    audio.volume = 0.1;
+
+
+audioBtn.addEventListener("mouseover", () => {
+
+    if (!audioPlayed ) {
+        
+        console.log("audio started");
+        // const audio = new Audio("Reigns.mp3");
+        // audio.volume = .1;
+        audio.play()
+
+        audioPlayed = true
+    }    
+    
+})  
+
+audioBtn.addEventListener("click", () => {
+    if (audioPlayed) {
+        console.log("audio stopped");
+        audio.pause();
+        audio.currentTime = "none"; // Reset audio to start
+        audioPlayed = false;
+    }
+});
+
+
 var article = document.createElement("article");
 article.setAttribute("id", "article");
 article.setAttribute("class", "active");
@@ -55,17 +85,17 @@ footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved."
     document.getElementById("container").appendChild(footer)
 
 
-    var audioBtn = document.querySelector("img")
+//     var audioBtn = document.querySelector("img")
 
 
-audioBtn.addEventListener("click", () => {
-    console.log("audio clicked");
-    const audio = new Audio("Reigns.mp3");
-    audio.volume = .1;
-    audio.play()
+// audioBtn.addEventListener("click", () => {
+//     console.log("audio clicked");
+//     const audio = new Audio("Reigns.mp3");
+//     audio.volume = .1;
+//     audio.play()
 
     
-})
+// })
 
 
 
