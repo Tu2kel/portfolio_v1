@@ -1,44 +1,5 @@
 
 
-
-// var article = document.createElement("article");
-// article.setAttribute("id", "article");
-// article.setAttribute("class", "active");
-
-
-//     document.getElementById("middle").appendChild(article);
-
-/*---------------------------------------------------------- */
-
-// var h2Intro = document.createElement("h2");
-// h2Intro.textContent = "RESUME";
-// h2Intro.setAttribute("class", "h2Intro");
-
-//     document.getElementById("article").prepend(h2Intro);
-
-    /*---------------------------------------------------------- */
-
-// var xhome = document.createElement("a");
-// xhome.textContent = "X";
-// xhome.setAttribute("class", "xhome");
-// xhome.setAttribute("href", "index.html");
-
-
-
-//     document.querySelector("h2").appendChild(xhome);
-
-/*-----------------RESUME BELOW----------------------------------------- */
-
-// var resume = document.createElement("iframe");
-// resume.setAttribute("class", "resume_Img")
-// resume.src = "Anthony K Kelley Resume.pdf";
-
-
-//     document.getElementById("article").appendChild(resume);
-
-    /*-----------------RESUME ABOVE----------------------------------------- */
-
-
 /* ------------------------------Login Page Blocker- Below-------------------------------------- */
 
 
@@ -48,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add the footer text
     var footer = document.querySelector("footer");
     footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved.";
-    document.getElementById("container").appendChild(footer);
+    // document.getElementById("container").appendChild(footer);
 
     // Initially hide the article section
-    document.getElementById("article").style.display = 'none';
+    // document.getElementById("article").style.display = 'none';
 });
 
 function checkLogin() {

@@ -38,7 +38,7 @@ footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved.";
         if (audioPlayed) {
             console.log("audio stopped");
             audio.pause();
-            audio.currentTime = "none"; // Reset audio to start
+            // audio.currentTime = "none"; // Reset audio to start
             audioPlayed = false;
         }
     });

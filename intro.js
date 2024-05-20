@@ -23,7 +23,7 @@ audioBtn.addEventListener("click", () => {
     if (audioPlayed) {
         console.log("audio stopped");
         audio.pause();
-        audio.currentTime = "none"; // Reset audio to start
+        // audio.currentTime = "none"; // Reset audio to start
         audioPlayed = false;
     }
 });

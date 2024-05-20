@@ -67,12 +67,10 @@ image.src = "starWars.jpg";
 
     /*---------------------------------------------------------- */
 
-var introPara = document.createElement("p");
+var introPara = document.createElement("pre");
 introPara.setAttribute("class", "introPara")
 
-    introPara.textContent = ` Add Links to GitHub individual projects 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quos quibusdam numquam error, eum dolor ad ipsum et labore veniam dignissimos accusamus excepturi sapiente totam corrupti iste officiis dolore ut!
-    `
+    introPara.textContent = ` Add Links to GitHub individual projects\n` + ` SET A COLUMN RULE  `
     /* add a tag to link  */
 
 
