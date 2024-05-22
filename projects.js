@@ -1,5 +1,5 @@
 
-var audioBtn = document.getElementById("container")
+var audioBtn = document.getElementById("container");
 let audioPlayed = false
 let audio = new Audio("Reigns.mp3");
     audio.volume = 0.1;
@@ -12,9 +12,9 @@ audioBtn.addEventListener("mouseover", () => {
         console.log("audio started");
         // const audio = new Audio("Reigns.mp3");
         // audio.volume = .1;
-        audio.play()
+        audio.play();
 
-        audioPlayed = true
+        audioPlayed = true;
     }    
     
 })  
@@ -23,7 +23,8 @@ audioBtn.addEventListener("click", () => {
     if (audioPlayed) {
         console.log("audio stopped");
         audio.pause();
-        audio.currentTime = "none"; // Reset audio to start
+        audio.currentTime = "none"; 
+        // Reset audio to start
         audioPlayed = false;
     }
 }); 
@@ -67,23 +68,47 @@ image.src = "starWars.jpg";
 
     /*---------------------------------------------------------- */
 
-var introPara = document.createElement("pre");
-introPara.setAttribute("class", "introPara")
+    
 
-    introPara.textContent = ` Add Links to GitHub individual projects\n` + ` SET A COLUMN RULE  `
+    var introPara = document.createElement("pre");
+    introPara.setAttribute("class", "introPara");
+
+    introPara.textContent = ` Links to Projects Below\n` + `  ` ; 
+
+    var proj1 = document.createElement("a");
+    document.querySelector("pre");
+    introPara.appendChild(proj1);
+
+    proj1.setAttribute("href", "https://gilded-quokka-c4bf8b.netlify.app/");
+    proj1.setAttribute("target", "_blank");
+    proj1.setAttribute("class", "proj1");
+    proj1.textContent = "1st Portfolio";
+    // proj1.style.color = "antiquewhite";
+
+
+    
+    
     /* add a tag to link  */
 
 
-    document.getElementById("article").appendChild(introPara)
+    document.getElementById("article").appendChild(introPara);
+
+var hr = document.createElement("hr")
+var hr2 = document.createElement("hr")
+
+document.querySelector("article").prepend(hr)
+document.querySelector("article").append(hr2)
+
+
 
 /* could just make footer which would fall to end of container */
 
-var footer = document.querySelector("footer")
-footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved."
+var footer = document.querySelector("footer");
+footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved.";
 
-    document.getElementById("container").appendChild(footer)
+    document.getElementById("container").appendChild(footer);
 
    
-
+ 
 
 

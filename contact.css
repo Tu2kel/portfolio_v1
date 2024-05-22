@@ -18,6 +18,7 @@
 .linkedInIcon:hover{
     width: 3vw;
     filter: none;
+    cursor: pointer;
 }
 
 .githubIcon{
@@ -28,6 +29,7 @@
 .githubIcon:hover{
     width: 3vw;
     filter: none;
+    cursor: pointer;
     
     
 }
@@ -40,14 +42,18 @@
 .emailIcon:hover{
     width: 3vw;
     filter: none;
+    cursor: pointer;
     
     
 }
 
 #socialMedia{
     display: flex;
-    justify-content: space-evenly;
-    column-count: 2;
+    justify-content: center;
+    gap: 5vw;
+    margin-right: 20%;
+
+
     
 }
 
@@ -56,4 +62,22 @@
 footer{
     font-family: "jersey 25";
     margin-top: 10vh;
+    
 }
+
+/* #middle  #fake{
+    display: flex;
+
+
+} */
+
+/* #fake img{
+
+    width: 3vw;
+    position: relative;
+    top: 78.6vh;
+    right: 5.01vw;
+    z-index: 999;
+    border-radius: 50%;
+
+} */

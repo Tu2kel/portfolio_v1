@@ -52,26 +52,86 @@ introPara.setAttribute("class", "introPara");
     document.getElementById("article").appendChild(introPara);
 
 
+    var hr = document.createElement("hr");
+    var hr2 = document.createElement("hr");
+
+document.querySelector("article").prepend(hr);
+document.querySelector("article").append(hr2);
+
+console.log("Script started");
     
     var iconDiv = document.createElement("div"); 
     iconDiv.setAttribute("id", "socialMedia");      
     document.getElementById("article").appendChild(iconDiv);
-    
+
+    console.log("Div created and appended");
+
+
+    const toLinkedIn = document.createElement("a");
+    toLinkedIn.setAttribute("id", "toLinkedIn");
+    toLinkedIn.setAttribute("href", "https://www.linkedin.com/in/anthony-k-kelley-sr/");
+    toLinkedIn.setAttribute("target", "_blank")
+   
+    console.log("Link created");
     
     var linkedIn = document.createElement("img");
     linkedIn.setAttribute("class" , "linkedInIcon");
     linkedIn.setAttribute("title" , "LinkedIn");
     linkedIn.src = "linkedIn_Icon.png";
+    
+    console.log("Image created");
+
+
+    toLinkedIn.appendChild(linkedIn);
+    iconDiv.appendChild(toLinkedIn);
+
+    console.log("Image and link appended");
+   
+
+    toLinkedIn.addEventListener("click", () => { 
+        window.location.href = "https://www.linkedin.com/in/anthony-k-kelley-sr/"
+        console.log("Link clicked");
+
+    })
+
+    console.log("Event listener added");
+
+    var toGithub = document.createElement("a");
+    toGithub.setAttribute("id", "toGithub");
 
     var github = document.createElement("img");
     github.setAttribute("class", "githubIcon");
     github.setAttribute("title" , "GitHub");
     github.src = "github_icon2-removebg-preview.png";
+    // github.setAttribute("target", "_blank")
+
+    // github.setAttribute("href", "https://github.com/Tu2kel/Level-5_Final_Proj");
+
+
+    toGithub.appendChild(github);
+    iconDiv.appendChild(toGithub);
+
+    github.addEventListener("click", () => { 
+        // window.location.href = "https://github.com/Tu2kel/Level-5_Final_Proj"1
+        console.log("Link clicked");
+        github.setAttribute("target", "_blank")
+
+        github.setAttribute("href", "https://github.com/Tu2kel/Level-5_Final_Proj");
+
+    })
+
+   
+    var toEmail = document.createElement("a");
+    toEmail.setAttribute("id", "toEmail");
+    toEmail.setAttribute("href", "mailto:yourEmail@example.com");
 
     var email = document.createElement("img");
     email.setAttribute("class", "emailIcon");
     email.src = "email2.png";
     email.setAttribute("title" , "Email");
+
+    toEmail.appendChild(email);
+    iconDiv.appendChild(toEmail);
     
 
     document.getElementById("socialMedia").appendChild(linkedIn);

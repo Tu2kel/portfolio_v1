@@ -1,6 +1,17 @@
+ *{
+    padding: 0px;
+}
+
 #container{
     height: 100%;
+    overflow: auto;
     
+}
+
+.spinners{
+    padding-top: 20vh;
+    color: azure;
+    font-size: 2em;
 }
 
 #carouselExampleAutoplaying > .carousel-inner {
@@ -12,6 +23,7 @@ div > h3{
     text-align: center;
     font-family: "jersey 25";
     color: darkred;
+    text-decoration: overline underline;
 }
 
 .carousel-item{
@@ -33,6 +45,10 @@ img{
     min-height: 20rem;
     object-fit: contain;
     
+}
+
+#footer{
+    margin-top: -25vh;
 }
 
 

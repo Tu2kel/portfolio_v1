@@ -77,6 +77,14 @@ introPara.setAttribute("class", "introPara")
 
     document.getElementById("article").appendChild(introPara)
 
+
+
+    var hr = document.createElement("hr");
+    var hr2 = document.createElement("hr");
+
+document.querySelector("article").prepend(hr);
+document.querySelector("article").append(hr2);
+
 /* could just make footer which would fall to end of container */
 
 var footer = document.querySelector("footer")

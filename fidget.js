@@ -1,18 +1,11 @@
-// let position = 0;
 
-// function prev(){
-//     console.log(" left SCroll");
-    // if (position <= 0) {
-    //     var carousel = document.getElementById("carouselExampleFade");
-    //     position +=1;
-    //     carousel.style.transform = translate
-    //     var offset = position * 200 + 4;
-    //     "translateX(-" + offset + "px)";
-    // }
+// const footer = document.getElementById("footer")
+// footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved."
+// document.getElementById("container").appendChild(footer)
+// footer.style.fontSize = "20em"
 
 
-// }
+// var footer = document.querySelector("footer");
+// footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved.";
 
-// function scrollLeft(){
-// console.log("scroll Left");
-// }
+//     document.getElementById("container").appendChild(footer);

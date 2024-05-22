@@ -1,12 +1,37 @@
+
 .work_Img{
     width: 100%;
     border-radius: 4px;
 
 }
 
+
+/* .introPara{
+    column-rule: thick inset blue;
+    column-count: 2;
+} */
+
+.proj1{
+    color: antiquewhite;
+    text-decoration: underline overline;
+}
+.proj1:hover{
+    text-decoration: underline overline;
+    color: red;
+}
+
+
+
+
+
+
+
+
 footer{
-    font-family: "jersey 25";
-    margin-top: 10vh;
+    /* font-family: "jersey 25"; */
+    /* margin-top: 10vh; */
+    padding-bottom: 15vh;
+    
 }
 
 
