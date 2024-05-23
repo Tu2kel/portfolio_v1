@@ -69,7 +69,7 @@ console.log("Script started");
 
     const toLinkedIn = document.createElement("a");
     toLinkedIn.setAttribute("id", "toLinkedIn");
-    toLinkedIn.setAttribute("href", "https://www.linkedin.com/in/anthony-k-kelley-sr/");
+    // toLinkedIn.setAttribute("href", "https://www.linkedin.com/in/anthony-k-kelley-sr/");
     toLinkedIn.setAttribute("target", "_blank")
    
     console.log("Link created");

@@ -11,11 +11,11 @@
     column-count: 2;
 } */
 
-.proj1{
+.proj1, .proj2{
     color: antiquewhite;
     text-decoration: underline overline;
 }
-.proj1:hover{
+.proj1:hover, .proj2:hover{
     text-decoration: underline overline;
     color: red;
 }

@@ -82,8 +82,16 @@ image.src = "starWars.jpg";
     proj1.setAttribute("href", "https://gilded-quokka-c4bf8b.netlify.app/");
     proj1.setAttribute("target", "_blank");
     proj1.setAttribute("class", "proj1");
-    proj1.textContent = "1st Portfolio";
-    // proj1.style.color = "antiquewhite";
+    proj1.textContent = "Old Portfolio";
+    
+    var proj2 = document.createElement("a");
+    document.querySelector("pre");
+    introPara.appendChild(proj2);
+
+    proj2.setAttribute("href", "https://clever-llama-cd8027.netlify.app/");
+    proj2.setAttribute("target", "_blank");
+    proj2.setAttribute("class", "proj2");
+    proj2.textContent = "Zen Garden";
 
 
     
@@ -105,7 +113,7 @@ document.querySelector("article").append(hr2)
 
 var footer = document.querySelector("footer");
 footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved.";
-
+ 
     document.getElementById("container").appendChild(footer);
 
    

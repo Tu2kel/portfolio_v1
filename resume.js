@@ -50,7 +50,7 @@ function showResume() {
 
     var resume = document.createElement("iframe");
     resume.setAttribute("class", "resume_Img");
-    resume.src = "Anthony K Kelley Resume.pdf";
+    resume.src = "Anthony K Kelley Resume.pdf"; // <---- Placed the Resume
     article.appendChild(resume);
 
     // Make the article section visible
