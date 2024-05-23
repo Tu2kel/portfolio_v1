@@ -88,9 +88,10 @@ console.log("Script started");
     console.log("Image and link appended");
    
 
-    toLinkedIn.addEventListener("click", () => { 
+    linkedIn.addEventListener("click", () => { 
         window.location.href = "https://www.linkedin.com/in/anthony-k-kelley-sr/"
         console.log("Link clicked");
+        linkedIn.setAttribute("target", "_blank")
 
     })
 
