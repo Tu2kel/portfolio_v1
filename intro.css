@@ -142,7 +142,7 @@ a:hover{
 .introPara{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     line-height: 2;
     font-size: 1.92em;
     font-family: "jersey 25";

@@ -112,11 +112,10 @@ console.log("Script started");
     iconDiv.appendChild(toGithub);
 
     github.addEventListener("click", () => { 
-        // window.location.href = "https://github.com/Tu2kel/Level-5_Final_Proj"1
+        window.location.href = "https://github.com/Tu2kel/Level-5_Final_Proj"
         console.log("Link clicked");
         github.setAttribute("target", "_blank")
 
-        github.setAttribute("href", "https://github.com/Tu2kel/Level-5_Final_Proj");
 
     })
 

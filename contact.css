@@ -49,13 +49,17 @@
 
 #socialMedia{
     display: flex;
-    justify-content: center;
-    gap: 5vw;
+    /* justify-content: center; */
+    /* gap: 5vw; */
     margin-right: 20%;
 
 
     
 }
+
+/* .introPara {
+    align-items: start;
+} */
 
 
 
