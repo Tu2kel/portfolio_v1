@@ -4,8 +4,7 @@ html, body{
     border: 0;
     font-size: 100%;
     background-color: azure;
-    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 14, 42, 0.5)); */
-    /* height: 100%; */
+  
 
 }
 
@@ -22,7 +21,6 @@ html, body{
 }
 
 #container{
-    /* border: 2px solid red; */
     background: linear-gradient(to top, rgba(61, 17, 17, 0.5), rgba(1, 21, 61, 0.5));;
     height: 100%;
 }
@@ -70,10 +68,14 @@ header{
 
 }
 
-p, footer{
-    font-family: "jersey 25";
+#h1{
+    padding-bottom: 20vh;
 }
 
+p, footer{
+
+    font-family: "jersey 25";
+}
 
 
 
@@ -85,7 +87,7 @@ p, footer{
     align-items: center;
     color: darkred;
     font-size: 1.2em;
-    padding-top: 45vh;
+    padding-top: 15vh;
     margin-top: 10vh;
 
 }

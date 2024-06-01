@@ -13,7 +13,9 @@
 
 .linkedInIcon{
     width: 3vw;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    border-radius: 50%;
+    
 }
 .linkedInIcon:hover{
     width: 3vw;

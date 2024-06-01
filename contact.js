@@ -77,7 +77,9 @@ console.log("Script started");
     var linkedIn = document.createElement("img");
     linkedIn.setAttribute("class" , "linkedInIcon");
     linkedIn.setAttribute("title" , "LinkedIn");
-    linkedIn.src = "linkedIn_Icon.png";
+    linkedIn.src = "vit_badge.png";
+
+    // linkedIn.src = "linkedIn_Icon.png";
     
     console.log("Image created");
 
@@ -137,6 +139,18 @@ console.log("Script started");
     document.getElementById("socialMedia").appendChild(linkedIn);
     document.getElementById("socialMedia").appendChild(github);
     document.getElementById("socialMedia").appendChild(email);
+
+   
+
+
+
+
+
+
+
+
+
+
 
 /* could just make footer which would fall to end of container */
 
