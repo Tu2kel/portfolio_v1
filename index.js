@@ -31,34 +31,34 @@ footer.textContent = "©️ 2024 Kelley Portfolio. All Rights Reserved.";
 
     
 
-    var audioBtn = document.getElementById("container")
-    let audioPlayed = false
-    let audio = new Audio("Reigns.mp3");
-        audio.volume = 0.1;
+    // var audioBtn = document.getElementById("container")
+    // let audioPlayed = false
+    // let audio = new Audio("Reigns.mp3");
+    //     audio.volume = 0.1;
     
     
-    audioBtn.addEventListener("mouseover", () => {
+    // audioBtn.addEventListener("mouseover", () => {
     
-        if (!audioPlayed ) {
+    //     if (!audioPlayed ) {
             
-            console.log("audio started");
-            // const audio = new Audio("Reigns.mp3");
-            // audio.volume = .1;
-            audio.play()
+    //         console.log("audio started");
+    //         const audio = new Audio("Reigns.mp3");
+    //         audio.volume = .1;
+    //         audio.play()
     
-            audioPlayed = true
-        }    
+    //         audioPlayed = true
+    //     }    
         
-    })  
+    // })  
 
-    audioBtn.addEventListener("click", () => {
-        if (audioPlayed) {
-            console.log("audio stopped");
-            audio.pause();
-            // audio.currentTime = "none"; // Reset audio to start
-            audioPlayed = false;
-        }
-    });
+    // audioBtn.addEventListener("click", () => {
+    //     if (audioPlayed) {
+    //         console.log("audio stopped");
+    //         audio.pause();
+    //         audio.currentTime = "none"; 
+    //         audioPlayed = false;
+    //     }
+    // });
 
 
 
