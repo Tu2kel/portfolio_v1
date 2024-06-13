@@ -77,9 +77,9 @@ console.log("Script started");
     var linkedIn = document.createElement("img");
     linkedIn.setAttribute("class" , "linkedInIcon");
     linkedIn.setAttribute("title" , "LinkedIn");
-    linkedIn.src = "vit_badge.png";
+    // linkedIn.src = "vit_badge.png";
 
-    // linkedIn.src = "linkedIn_Icon.png";
+    linkedIn.src = "linkedIn_Icon.png";
     
     console.log("Image created");
 
@@ -122,19 +122,28 @@ console.log("Script started");
 
     })
 
-   
+    
     var toEmail = document.createElement("a");
     toEmail.setAttribute("id", "toEmail");
-    toEmail.setAttribute("href", "mailto:yourEmail@example.com");
+    toEmail.setAttribute("href", "");
+    // toEmail.alert("Email: tu2kel.lg@gmail.com")
 
+    
     var email = document.createElement("img");
     email.setAttribute("class", "emailIcon");
     email.src = "email2.png";
     email.setAttribute("title" , "Email");
 
+    email.addEventListener("click", () => {
+        
+        alert("Email: tu2kel.lg@gmail.com")
+        
+
+    } )
+
+    
     toEmail.appendChild(email);
     iconDiv.appendChild(toEmail);
-    
 
     document.getElementById("socialMedia").appendChild(linkedIn);
     document.getElementById("socialMedia").appendChild(github);
